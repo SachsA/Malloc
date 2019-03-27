@@ -1,30 +1,27 @@
-Epitech, SECOND year Project. C Unix Memory : recode Malloc.
+# Malloc
 
-The goal of the project is to recode severals functions of the C library :
+### Goal
+###### The project : Recode C library functions.
+###### void *malloc(size_t size);
+###### void *realloc(void *ptr, size_t size);
+###### void free(void *ptr);
 
---> void *malloc(size_t size);
+### Program compilation of a shared Library:
+  ```sh
+        make
+```
 
---> void *realloc(void *ptr, size_t size);
+### Usage
+- There is a "./test" : it will run some tests, do not hesitate to test it with the real malloc and our malloc.
 
---> void free(void *ptr);
+##### How to use it ?!?!
+```sh
+        LD_LIBRARY_PATH=$(pwd)
+```
+```sh
+        LD_PRELOAD=/path/to/our/library/libmy_malloc.so ./path/to/your/c/program --> for example : ./test
+```
 
-
-To compile : make.
-
-To recompile the project : make re.
-
-To clean all : make fclean.
-
------> It will compile you a shared library.
-
-There is a "./test" : it will run some tests, do not hesitate to test it with the real one and our malloc.
-
-
-HOW TO USE OUR MALLOC:
-
-LD_LIBRARY_PATH=$(pwd)
-
-LD_PRELOAD=/path/to/our/library/libmy_malloc.so ./path/to/your/c/program    ------> for example : ./test
-
-
-Group that make the project : Alexandre Sachs. Martin Cotoni. (Both in Epitech Bordeaux)
+#### Project realised by:
+- **Alexandre Sachs : [alexandre.sachs@epitech.eu](https://github.com/SachsA)**
+- **Martin Cotoni : [martin.cotoni@epitech.eu](https://github.com/cotonim)**
