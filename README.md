@@ -23,5 +23,5 @@
 ```
 
 #### Project realised by:
-- **Alexandre Sachs : [alexandre.sachs@epitech.eu](https://github.com/SachsA)**
+- **Alexandre Sachs : [alexandre.sachs@outlook.fr](https://github.com/SachsA)**
 - **Martin Cotoni : [martin.cotoni@epitech.eu](https://github.com/cotonim)**
